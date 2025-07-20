@@ -33,7 +33,7 @@ body {
 
 
 a {
-    color: #4c8e30;
+    color: #eccc79;
 }
 
 a:hover,
@@ -88,12 +88,13 @@ p {
 }
 
 p.lead {
-    color: #eccc79;
+    color: #ffe958;
     margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text-primary {
-    color: #4c8e30 !important;
+    color: #eccc79 !important;
 }
 
 .light-font {
@@ -194,7 +195,7 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: (#4c8e30);
+    background-color: (#eccc79);
     background: -moz-linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
     background: -webkit-linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
     background: linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
@@ -219,7 +220,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #7dca5c;
+        border-bottom: 2px solid #fd8b56;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -257,7 +258,7 @@ header {
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #7dca5c;
+    color: #eccc79;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -289,7 +290,7 @@ header {
 ----------------------*/
 
 .gradient-fill:before {
-    color: #7dca5c;
+    color: #fd8b56;
     background: -moz-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
     background: -webkit-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
     background: linear-gradient(to bottom, #fd8b56 0%, #e7d03a 100%);
@@ -318,7 +319,7 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #7dca5c;
+    color: #e7d03a;
     background: -moz-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
     background: -webkit-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
     background: linear-gradient(to bottom, #fd8b56 0%, #e7d03a 100%);
@@ -355,7 +356,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #7dca5c;
+    color: #e7d03a;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -373,10 +374,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #3891e4 0%, #64b4ff 100%);
-    background-image: -webkit-linear-gradient( 122deg, #3891e4 0%, #64b4ff 100%);
-    background-image: -ms-linear-gradient( 122deg, #3891e4 0%, #64b4ff 100%);
-    background-image: linear-gradient( 122deg, #3891e4 0%, #64b4ff 100%);
+    background-image: -moz-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -webkit-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -ms-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -443,7 +444,7 @@ header {
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #98cf80 #faf6fb #FFF;
+    border-color: #eccc79 #faf6fb #FFF;
     color: #eccc79;
 }
 
@@ -502,11 +503,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #7dca5c;
+    background: #e7d03a;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #7dca5c;
+    background: #e7d03a;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -544,7 +545,7 @@ header {
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #99c984 #faf6fb #FFF;
+    border-color: #eccc79 #faf6fb #FFF;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
     color: #eccc79;
 }
@@ -616,7 +617,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #7dca5c;
+    color: #e7d03a;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -644,13 +645,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #bbeda5;
+    color: #eccc79;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #9bcefd;
+    color: #eccc79;
 }
 
 @media (max-width:991px) {
