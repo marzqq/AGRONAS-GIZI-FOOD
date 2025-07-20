@@ -2,11 +2,6 @@
 
 /*
 
-Style   : MobApp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
 Copyright © All rights Reserved 
 
 */
@@ -43,26 +38,34 @@ a {
 
 a:hover,
 a:focus {
-    color: #2b73b7;
+    color: #eccc79;
 }
 
+
+
+
 h1 {
+    font-family:'Rubik',sans-serif ;
     font-size: 60px;
-    font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+    background: linear-gradient(35deg,#fff200, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
 }
 
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #2b73b7;
+    color: #eccc79;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #2b73b7;
+    color: #eccc79;
     font-size: 33px;
     font-weight: 500;
 }
@@ -70,13 +73,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #2b73b7;
+    color: #eccc79;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #2b73b7;
+    color: #eccc79;
     margin-bottom: 0.7rem;
 }
 
@@ -85,7 +88,7 @@ p {
 }
 
 p.lead {
-    color: #ffffff;
+    color: #eccc79;
     margin-bottom: 2rem;
 }
 
@@ -106,15 +109,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #2b73b7;
+    color: #eccc79;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: -webkit-linear-gradient( 122deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: -ms-linear-gradient( 122deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: linear-gradient( 122deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
+    background-image: -moz-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -webkit-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -ms-linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -127,7 +130,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
+    background-image: linear-gradient( 122deg, #fd8b56 0%, #e7d03a 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -138,7 +141,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #2b73b7;
+    color: #eccc79;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -192,9 +195,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: (#4c8e30);
-    background: -moz-linear-gradient(135deg, #2b73b7 0%, #4c8e30 100%);
-    background: -webkit-linear-gradient(135deg, #2b73b7 0%, #4c8e30 100%);
-    background: linear-gradient(135deg, #2b73b7 0%, #4c8e30 100%);
+    background: -moz-linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
+    background: -webkit-linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
+    background: linear-gradient(135deg, #e87b48 0%, #ddc632 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -241,14 +244,14 @@ p.lead {
 header {
     padding: 100px 0 0;
     text-align: center;
-    color: #FFF;
+    color: #000000;
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: -webkit-linear-gradient( 135deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: -ms-linear-gradient( 135deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background-image: linear-gradient( 135deg, #70adf9 0%,#54a358 50%, #4a9eed 100%);
+    background-image: -moz-linear-gradient( 135deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -webkit-linear-gradient( 135deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: -ms-linear-gradient( 135deg, #fd8b56 0%, #e7d03a 100%);
+    background-image: linear-gradient( 135deg, #fd8b56 0%, #e7d03a 100%);
 }
 
 .tagline {
@@ -287,9 +290,9 @@ header {
 
 .gradient-fill:before {
     color: #7dca5c;
-    background: -moz-linear-gradient(top, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background: -webkit-linear-gradient(top, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background: linear-gradient(to bottom, #70adf9 0%,#54a358 50%, #4a9eed 100%);
+    background: -moz-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
+    background: -webkit-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
+    background: linear-gradient(to bottom, #fd8b56 0%, #e7d03a 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -316,9 +319,9 @@ header {
     position: absolute;
     width: 3px;
     color: #7dca5c;
-    background: -moz-linear-gradient(top, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background: -webkit-linear-gradient(top, #70adf9 0%,#54a358 50%, #4a9eed 100%);
-    background: linear-gradient(to bottom, #70adf9 0%,#54a358 50%, #4a9eed 100%);
+    background: -moz-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
+    background: -webkit-linear-gradient(top, #fd8b56 0%, #e7d03a 100%);
+    background: linear-gradient(to bottom, #fd8b56 0%, #e7d03a 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -441,7 +444,7 @@ header {
     background: #FFF;
     border-top-width: 3px;
     border-color: #98cf80 #faf6fb #FFF;
-    color: #2b73b7;
+    color: #eccc79;
 }
 
 
@@ -543,7 +546,7 @@ header {
     border-top-width: 3px;
     border-color: #99c984 #faf6fb #FFF;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-    color: #2b73b7;
+    color: #eccc79;
 }
 
 .card.pricing .card-head {
@@ -555,7 +558,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #2b73b7;
+    color: #eccc79;
 }
 
 .card.pricing .card-head .price sub {
